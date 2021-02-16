@@ -1,0 +1,36 @@
+
+{% comment %}
+###################################
+ACA INCLUYO LA BARRA DE NAVEGACION
+###################################
+{% endcomment %}
+
+<html> <body> 
+
+{% include "superior/barra.html" %}
+
+</body> </html>
+
+{% comment %} 
+##########################################
+ACA EL RESTO DE LA PLANTILLA
+##########################################
+{% endcomment %}
+
+
+
+
+<html><CENTER><body><h2>HOLA MUNDOOOOOO!!11</h2></center></body></html>
+
+	{% if nombre_persona == 'Aquiles' %}
+
+		<p>El curso lo imparte aquileskere</p>	
+
+	{% endif %}
+
+<p>El nombre  es: <h2>{{nombre_persona}}</h2> </p>	
+<p>El apellido es: <h2>{{apellido_persona}}</h2> </p>	
+<li>Fecha actual: {{fecha_actual.day}} {{mes_nombre}}   </h2> </li>	
+	
+
+
